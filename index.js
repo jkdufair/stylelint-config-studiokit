@@ -2,7 +2,7 @@
 
 module.exports = {
 	extends: 'stylelint-config-standard',
-	rules:{
+	rules: {
 		indentation: 'tab'
 	}
 }
