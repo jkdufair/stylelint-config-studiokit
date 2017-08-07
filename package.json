@@ -27,10 +27,15 @@
     "stylelint": "^8.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.3.0",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.0",
+    "eslint-config-prettier": "^2.3.0",
     "eslint-config-stylelint": "^7.0.0",
+    "eslint-config-studiokit": "https://github.com/purdue-tlt/eslint-config-studiokit#develop",
+    "eslint-plugin-prettier": "^2.1.2",
     "jest": "^20.0.4",
     "npm-run-all": "^4.0.2",
+    "prettier": "^1.5.3",
     "remark-cli": "^4.0.0",
     "remark-preset-lint-consistent": "^2.0.0",
     "remark-preset-lint-recommended": "^3.0.0",
@@ -45,7 +50,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "stylelint"
+      "stylelint",
+      "studiokit"
     ]
   },
   "jest": {
@@ -57,5 +63,5 @@
       "preset-lint-recommended",
       "preset-lint-consistent"
     ]
-  }  
+  }
 }
