@@ -32,7 +32,7 @@
 		"babel-eslint": "7.2.3",
 		"eslint": "4.10.0",
 		"eslint-config-prettier": "^3.0.1",
-		"eslint-config-studiokit": "^0.1.0",
+		"eslint-config-studiokit": "https://github.com/purdue-tlt/eslint-config-studiokit#release/0.2.0",
 		"eslint-config-stylelint": "^8.2.0",
 		"eslint-plugin-prettier": "^2.6.2",
 		"jest": "^23.6.0",

@@ -1273,9 +1273,9 @@ eslint-config-prettier@^3.0.1:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-studiokit@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-studiokit/-/eslint-config-studiokit-0.1.0.tgz#2e6393db9af8880cfcdac9126f51f4b6210f426d"
+"eslint-config-studiokit@https://github.com/purdue-tlt/eslint-config-studiokit#release/0.2.0":
+  version "0.2.0"
+  resolved "https://github.com/purdue-tlt/eslint-config-studiokit#50e7c5bb2a146f216671a800d41e83cb6aa458d6"
 
 eslint-config-stylelint@^8.2.0:
   version "8.2.0"
