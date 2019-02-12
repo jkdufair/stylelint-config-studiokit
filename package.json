@@ -1,6 +1,6 @@
 {
 	"name": "stylelint-config-studiokit",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Shared config for stylelint",
 	"keywords": [
 		"stylelint",
