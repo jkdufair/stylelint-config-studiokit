@@ -20,7 +20,7 @@ describe('flags no warnings with valid css', () => {
 	})
 
 	it('flags no warnings', () => {
-		return result.then(data => expect(data.results[0].warnings.length).toBe(0))
+		return result.then(data => expect(data.results[0].warnings).toHaveLength(0))
 	})
 })
 
@@ -39,7 +39,7 @@ describe('flags warnings with invalid css', () => {
 	})
 
 	it('flags three warning', () => {
-		return result.then(data => expect(data.results[0].warnings.length).toBe(3))
+		return result.then(data => expect(data.results[0].warnings).toHaveLength(3))
 	})
 
 	it('flags indentation', () => {
